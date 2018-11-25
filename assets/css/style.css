@@ -18,4 +18,5 @@ label {
 #add-train-btn {
   background-color: #0186f1;
   font-weight: bold;
+  float: right;
 }
