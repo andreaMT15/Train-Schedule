@@ -1,0 +1,21 @@
+.card-header {
+  background-color: #5501be;
+  color: white;
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+.card-mb-4,
+#add-train {
+  border: solid 3px #5201b6;
+  border-top: solid 0px;
+  border-radius: 8px;
+}
+
+#add-train-btn {
+  background-color: #0186f1;
+  font-weight: bold;
+}
