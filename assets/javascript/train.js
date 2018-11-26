@@ -62,9 +62,6 @@ database.ref().on("child_added", function(childSnapshot) {
   var trainStartConverted = moment(trainStart, "hh:mm").subtract(1, "years");
   // console.log(trainStartConverted);
 
-  var currentTime = moment();
-  // console.log("CURRENT TIME: " + moment(currentTime).format("hh:mm"));
-
   var timeDifference = moment().diff(moment(trainStartConverted), "minutes");
   // console.log("DIFFERENCE IN TIME: " + timeDifference);
 
