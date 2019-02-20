@@ -4,6 +4,10 @@
   font-weight: bold;
 }
 
+h3 {
+  display: none;
+}
+
 label {
   font-weight: bold;
 }
@@ -19,4 +23,31 @@ label {
   background-color: #0186f1;
   font-weight: bold;
   float: right;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  .table th {
+    padding: 0.5rem;
+  }
+
+  img {
+    display: none;
+  }
+
+  .col-sm-3 {
+    padding: 0;
+  }
+
+  h3 {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #5201b6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
