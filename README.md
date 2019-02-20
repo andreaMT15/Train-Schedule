@@ -1,4 +1,4 @@
-##Train Schedule App
+## Train Schedule App
 
 **Developer: Andrea Minhas**
 
